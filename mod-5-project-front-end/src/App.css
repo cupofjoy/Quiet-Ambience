@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.logo1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  text-shadow: -1px -1px 1px DarkCyan, 1px 1px 1px #ccc;
+  color: azure;
+  animation-name: logo1;
+  animation-duration: 5s;
+  position: relative;
+  font-size: xx-large;
+  font-size: 48px;
+  font-family: 'nunito'
+}
+
+.logo2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-shadow: -1px -1px 1px DarkCyan, 1px 1px 1px #ccc;
+  color: aliceblue;
+  animation-name: logo2;
+  animation-duration: 5s;
+  position: relative;
+  font-stretch: expanded;
+  font-family: 'nunito'
+}
+
+.slogan {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-shadow: -1px -1px 1px DarkCyan, 1px 1px 1px #ccc;
+  color: aliceblue;
+  animation-name: slogan;
+  animation-duration: 5s;
+  -webkit-animation: seconds 1.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 1.0s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+}
+
+.example-enter{
+  opacity:0.01;
+}
+
+.App {
+  background: linear-gradient(to bottom, #3cc7ea 0%,#00F7DA 100%);
+  min-height: 1000px;
+  text-align: center;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+@keyframes logo1 {
+  0%   {left:-1500px; transform: rotateY(0) rotateX(0) rotateZ(0);}
+  100% {left:0px; transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);}
+}
+
+@keyframes logo2 {
+  0%   {right:-1500px; transform: rotateY(0) rotateX(0) rotateZ(0);}
+  100% {right:0px; transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);}
+}
+
+@keyframes slogan {
+
+}
+
+.homepagelogin {
+  animation-name: login;
+  animation-duration: 2s;
+}
+
+@keyframes login {
+  0% {visibility: hidden}
+  100% {visibility: visible}
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.ui .icon .menu{
+  opacity: 0.5;
+}
+
+.ui .item {
+  color: #009999;
+}
+
+.favorites {
+  margin-top: 20px;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.menu {
+  opacity: 0.5;
+}
+
+.nav {
+  height: 45px;
+  /* padding: 20px; */
+  padding-bottom: 10px;
+  color: #009999;
+  /* margin-bottom: 9px; */
+}
+
+.photo {
+  height: 40em;
+}
+
+.photolist {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.sharedPhoto {
+  opacity: 0.7;
+}
+
+.tagList {
+  overflow-y: scroll;
+  opacity: 0.8;
+  min-height: 800px;
+  max-height: 800px;
+}
+
+textarea {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  word-spacing: 0.5em;
+  opacity: 0.8;
+}
+
+.dropzone {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 50em;
+  height: 10em;
+  border: 2px ridge #0099cc;
+  color: #0099cc;
+  opacity: 0.6;
+}
+
+.photolist {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.displayColor {
+  width: 4%;
+  float: left;
+}
+
+.welcomepage {
+  background-image: url('https://images.wallpaperscraft.com/image/camera_grass_lens_90192_1280x720.jpg');
+  /* background-image: url('https://wallup.net/wp-content/uploads/2015/12/98080-vintage-photography-camera-macro-depth_of_field.jpg'); */
+  background-position: center;
+  background-size: cover;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-color: linear-gradient(to bottom, #3cc7ea 0%,#74e072 100%);
+
+}
+
+.registrationlogin {
+  margin-left: 60px;
+}
+
+#colortags {
+  color: azure;
+  text-shadow: -1px -1px 1px DarkCyan, 1px 1px 1px #ccc;
+}
+
+#tags {
+  float: left;
+}
+
+#registration {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#login {
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+#photocollection {
+  height: 600px;
+  overflow-y: scroll;
+  opacity: 0.8;
+}
+
+#sharedphotocollection {
+  margin-top: 20px;
+}
+
+#uploadimage {
+  height: 175px;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 64px;
+  font-variant: small-caps;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

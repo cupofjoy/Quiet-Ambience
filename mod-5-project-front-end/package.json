@@ -1,0 +1,39 @@
+{
+  "name": "mod-5-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "@google-cloud/vision": "^0.21.0",
+    "axios": "^0.18.0",
+    "clarifai": "^2.8.0",
+    "cloudinary": "^1.11.0",
+    "cloudinary-core": "^2.5.0",
+    "cloudinary-react": "^1.0.6",
+    "connected-react-router": "^4.3.0",
+    "crypto-js": "^3.1.9-1",
+    "exit": "^0.1.2",
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-dropzone": "^4.2.13",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^1.2.1",
+    "redux": "^4.0.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.0",
+    "superagent": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
