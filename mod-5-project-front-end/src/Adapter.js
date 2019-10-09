@@ -90,6 +90,7 @@ class Adapter {
   }
 
   static handleData = (data) => {
+    debugger
     let resultsArr = data.responses[0].labelAnnotations
     let colorsArr = data.responses[0].imagePropertiesAnnotation.dominantColors.colors
     let faceObj

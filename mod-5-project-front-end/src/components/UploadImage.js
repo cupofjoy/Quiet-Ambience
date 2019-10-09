@@ -33,7 +33,6 @@ class UploadImage extends Component {
       .then(r => r.json())
       .then(d => {
         let photos = d.photos
-        console.log("photos", photos);
         this.props.addPhoto(photos)
       })
   }

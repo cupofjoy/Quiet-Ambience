@@ -1,6 +1,6 @@
 class Config {
   static API_KEY() {
-    return 'API KEY'
+    return 'AIzaSyDszVLjHQ-ODwwcptfIVWYh5L4l6BVL0bg'
   }
 }
 
